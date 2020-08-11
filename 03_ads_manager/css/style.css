@@ -113,3 +113,60 @@ table tbody tr:hover .delete {
         display: none;
     }
 }
+
+.search {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 15px;
+}
+
+.search form {
+    position: relative;
+}
+
+.search form input {
+    background-color: transparent;
+    border: 1px solid #151b31;
+    border-radius: 3px;
+    font-family: inherit;
+    font-size: 14px;
+    padding: 10px 10px 10px 40px;
+    width: 100%;
+}
+
+.search form input::placeholder {
+    color: #7f7f7f;
+}
+
+.search form button {
+    position: absolute;
+    top: 3px;
+    left: 0;
+    padding: 9px 8px;
+    background-color: transparent;
+    border: 0;
+    color: #7f7f7f;
+    font-size: 16px;
+}
+
+.filter-container {
+    position: relative;
+}
+
+.filter-container button {
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid #151b31;
+    padding: 10px 15px;
+    color: #e2e2e2;
+}
+
+.filter-container .badge {
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    padding: 3px 8px;
+    border-radius: 50%;
+    background-color: #F776C1;
+    font-size: 12px;
+}
