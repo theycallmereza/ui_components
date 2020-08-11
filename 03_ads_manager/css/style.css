@@ -167,6 +167,21 @@ table tbody tr:hover .delete {
     right: -8px;
     padding: 3px 8px;
     border-radius: 50%;
-    background-color: #F776C1;
+    background-color: #f776c1;
     font-size: 12px;
+}
+
+.add-ad {
+    float: right;
+    margin: 15px;
+}
+
+.add-ad button {
+    cursor: pointer;
+    border: 0;
+    border-radius: 50%;
+    padding: 10px 12px;
+    color: #e2e2e2;
+    font-weight: bold;
+    background-color: #f776c1;
 }
